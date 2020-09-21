@@ -6,7 +6,7 @@ A pretty simplified Docker Compose workflow that sets up a containers for local 
 
 To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-windows/install/) on your system, and then clone this repository.
 
-Next, navigate in your terminal to the directory you cloned this, and spin up the containers for the web server by running `docker stack deploy -c stack.yml stack-name`. the project will start on [localhost:8080](http://localhost:8080)
+Next, navigate in your terminal to the directory you cloned this, and spin up the containers for the web server by running `docker stack deploy -c docker-compose.yml stack-name`. the project will start on [localhost:8080](http://localhost:8080)
 
 to remove the stack run `docker volume remove stack-name`
 
